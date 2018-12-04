@@ -1,0 +1,31 @@
+{
+  "name": "elm-envfile",
+  "version": "1.0.0",
+  "description": "Encode and parse envfiles",
+  "main": "src/Envfile.elm",
+  "scripts": {
+    "test": "elm-format --validate src && elm-verify-examples --fail-on-warn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TSFoster/elm-envfile.git"
+  },
+  "keywords": [
+    "elm",
+    "envfile",
+    "parser",
+    "encode"
+  ],
+  "author": "T.S.Foster",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/TSFoster/elm-envfile/issues"
+  },
+  "homepage": "https://github.com/TSFoster/elm-envfile#readme",
+  "devDependencies": {
+    "elm": "^0.19.0-bugfix2",
+    "elm-format": "^0.8.1",
+    "elm-test": "^0.19.0-rev3",
+    "elm-verify-examples": "^3.0.1"
+  }
+}
