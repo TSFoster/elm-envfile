@@ -1,10 +1,10 @@
 {
   "name": "elm-envfile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encode and parse envfiles",
   "main": "src/Envfile.elm",
   "scripts": {
-    "test": "elm-format --validate src && elm-verify-examples --fail-on-warn"
+    "test": "elm-format --validate src && elm-verify-examples --fail-on-warn && elm-test"
   },
   "repository": {
     "type": "git",

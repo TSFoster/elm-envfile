@@ -112,7 +112,7 @@ lines definitions =
     Parser.oneOf
         [ Parser.map (\definition -> Loop (definition :: definitions)) declaration
         , Parser.map (\_ -> Loop definitions) ignoredLine
-        , Parser.map (\_ -> Done (Dict.fromList definitions)) Parser.end
+        , Parser.map (\_ -> Done (Dict.fromList (List.reverse definitions))) Parser.end
         ]
 
 
